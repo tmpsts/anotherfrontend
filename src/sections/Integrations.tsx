@@ -53,8 +53,8 @@ export default function Integrations() {
               Plays well with <span className="text-lime-400">others</span>
             </h2>
             <p className="text-white/50 mt-4 text-lg">
-              Layers seemlessly connects with your favorites tools making it
-              easy to plug into any workflow and collaborate across platforms.
+              Layers seamlessly connects with your favorite tools, making it
+              easy ot plug into any workflow and collaborate across platforms.
             </p>
           </div>
           <div>
