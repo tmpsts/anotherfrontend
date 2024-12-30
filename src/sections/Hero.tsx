@@ -49,7 +49,7 @@ export default function Hero() {
         { duration: 0.5, ease: "easeInOut" },
       ],
     ]);
-  }, []);
+  });
   return (
     <section
       className="py-24 overflow-x-clip"

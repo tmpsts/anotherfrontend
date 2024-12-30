@@ -51,9 +51,7 @@ export default function Faqs() {
               key={faq.question}
               className="bg-neutral-900 rounded-2xl border border-white/10 p-6"
               onClick={() => {
-                selectedIndex === faqIndex
-                  ? setSelectedIndex(-1)
-                  : setSelectedIndex(faqIndex);
+                setSelectedIndex(selectedIndex === faqIndex ? -1 : faqIndex);
               }}
             >
               <div className="flex justify-between items-center">
